@@ -71,10 +71,8 @@ for i in range(m):
 
 # 输出本次拟合的正确率
 correct = 0
-all = 0
 for i in range(m):
     if TF[i] == y[i]:
         correct = correct + 1
-    all = all + 1
 correct = float(correct)
-print "正确率：" , correct/all
+print "正确率：" , correct/m
