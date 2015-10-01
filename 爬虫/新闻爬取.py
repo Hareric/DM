@@ -5,6 +5,7 @@ import chardet
 import urllib
 import re
 
+
 #收集新闻网址
 a = []
 file = open('News_url.txt','w')
