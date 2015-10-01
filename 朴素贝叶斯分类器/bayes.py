@@ -1,5 +1,6 @@
 #coding=utf-8
 __author__ = 'Eric Chan'
+
 import nltk
 import chardet
 
