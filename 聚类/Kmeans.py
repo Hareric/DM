@@ -51,7 +51,6 @@ def randCent(dataSet,k): #构建一个包含k个随机簇中心的集合
     return centroids
 
 def updateCentroids(teamdate,centroids,k):   #更新簇中心的位置
-
     n = 12 #列数  （特征数量)
     new = [[0 for a in range(n)] for b in range(k)] #新建k个簇坐标
     for c in range(k):
