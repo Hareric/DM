@@ -14,7 +14,7 @@ for i in range(200):
     print "---\npage%i" % i
     req = urllib2.Request(url % i, headers=header)
     res = urllib2.urlopen(req).read()
-    while not res.startswith('{"productAttr'):
+    while not res:
         print '无response值 重新请求'
         res = urllib2.urlopen(req).read()
         time.sleep(5)
